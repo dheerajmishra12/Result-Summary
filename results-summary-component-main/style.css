@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Lightred: hsl(0, 100%, 67%);
+--Orangeyyellow: hsl(39, 100%, 56%);
+--Greenteal: hsl(166, 100%, 37%);
+--Cobaltblue: hsl(234, 85%, 45%);
+
+--Lightslateblue:hsl(252, 100%, 67%);
+--Lightroyalblue: hsl(241, 81%, 54%);
+
+--Violetblue: hsla(256, 72%, 46%, 1);
+--Persianblue: hsla(241, 72%, 46%, 0);
+
+--White:hsl(0, 0%, 100%);
+--Paleblue:hsl(221, 100%, 96%);
+--Lightlavender:hsl(241, 100%, 89%);
+--Darkgrayblue:hsl(224, 30%, 27%);
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    font-family: "Hanken Grotesk", sans-serif;
+    
+    
+    
+}
+.card{
+    margin: auto;
+    display: flex;
+   
+}
+.firstcard{
+    background: linear-gradient(var(--Lightroyalblue),var(--Violetblue));
+     
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+}
+.firstcard h1 {
+    margin-bottom: 20px;
+    color: var(--White);
+    font-size: 15px;
+    opacity: 0.5;
+}
+.firstcard h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.first{
+    color: var(--White);
+    font-size: 40px;
+    font-weight:bold;
+}
+.second{
+    opacity: 0.3;
+}
+.you{
+    opacity: 0.4;
+}
+.score{
+    background: linear-gradient(var(--Cobaltblue),var(--Violetblue));
+    display: inline-block;
+    padding: 30px 45px;
+    border-radius: 50%;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 2px 10px;
+    border-radius: 8px;
+}
+.secondcard{
+    width: 250px;
+    padding: 15px;
+}
+.data h3{
+    padding: 10px 0;
+}
+.data span{
+    color: gray;
+    opacity: 0.5;
+}
+.Re{
+    color: var(--Lightred);
+    
+}
+.redata{
+    background-color: rgba(255, 0, 0, 0.062);
+}
+.medata{
+    background-color: rgba(255, 255, 0, 0.226);
+}
+.me{
+    color: var(--Orangeyyellow);
+
+}
+.vedata{
+    background-color: rgba(0, 128, 0, 0.075);
+}
+.ve{
+    color: var(--Greenteal);
+}
+.vidata{
+    background-color: rgba(0, 0, 255, 0.082);
+}
+.vi{
+    color: var(--Cobaltblue)
+}
+.btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: var(--Darkgrayblue);
+    color: white;
+    border: none;
+}
+img{
+    
+    margin-bottom: -5px;
+}
